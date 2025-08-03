@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Project-specific data directories
+data/vector_store/
+data/checkpoints/
+data/knowledge_base/*.pdf
+data/knowledge_base/*.txt
+data/knowledge_base/*.docx
+
+# Keep data directory structure but ignore contents
+!data/
+!data/vector_store/.gitkeep
+!data/checkpoints/.gitkeep
+!data/knowledge_base/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.chroma
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Model and cache files
+*.pkl
+*.pickle
+*.joblib
+*.bin
+
+# LangChain specific
+.langchain/
+langchain.log
+
+# Test coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Backup files
+*.bak
+*~
